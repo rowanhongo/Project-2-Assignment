@@ -1,0 +1,18 @@
+Initial Max-Heap:
+C:91  
+J:79  G:85  
+I:63  E:72  F:48  A:56  
+H:17  D:34  B:23  K:42  
+
+After inserting X (100):
+X:100  
+J:79  C:91  
+I:63  E:72  G:85  A:56  
+H:17  D:34  B:23  K:42  F:48  
+
+After removing X:
+C:91  
+J:79  G:85  
+I:63  E:72  F:48  A:56  
+H:17  D:34  B:23  K:42  
+
