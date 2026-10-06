@@ -1,0 +1,25 @@
+Initial Max-Heap:
+P03 Eric 91   
+P05 Hassan 88   P07 Jean 76   
+P04 Grace 63   P02 Daniel 45   P06 Irene 54   P01 Amina 72   
+
+Treatment order:
+Patient P03 (Eric) - Priority 91
+Patient P05 (Hassan) - Priority 88
+Patient P07 (Jean) - Priority 76
+Patient P01 (Amina) - Priority 72
+Patient P04 (Grace) - Priority 63
+Patient P06 (Irene) - Priority 54
+Patient P02 (Daniel) - Priority 45
+
+After inserting Kofi (P08):
+P08 Kofi 98   
+P03 Eric 91   P07 Jean 76   
+P05 Hassan 88   P02 Daniel 45   P06 Irene 54   P01 Amina 72   
+P04 Grace 63   
+
+After removing P08:
+P03 Eric 91   
+P05 Hassan 88   P07 Jean 76   
+P04 Grace 63   P02 Daniel 45   P06 Irene 54   P01 Amina 72   
+
