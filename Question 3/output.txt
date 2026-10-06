@@ -1,0 +1,31 @@
+Adjacency matrix:
+    A  B  C  D  E  F  G
+A   0  6  0 12  0  0  0
+B   6  0 11  5  0  0  0
+C   0 11  0 17  0  0 25
+D  12  5 17  0 22 15  0
+E   0  0  0 22  0 10  0
+F   0  0  0 15 10  0 22
+G   0  0 25  0  0 22  0
+
+Edges in order of cost:
+B - D :  5  accepted
+A - B :  6  accepted
+E - F : 10  accepted
+B - C : 11  accepted
+A - D : 12  rejected (cycle)
+D - F : 15  accepted
+C - D : 17  rejected (cycle)
+D - E : 22  rejected (cycle)
+F - G : 22  accepted
+C - G : 25  rejected (cycle)
+
+Selected Connections:
+Station B - Station D : 5
+Station A - Station B : 6
+Station E - Station F : 10
+Station B - Station C : 11
+Station D - Station F : 15
+Station F - Station G : 22
+
+Total Installation Cost: 69 thousand dollars
